@@ -1,0 +1,5 @@
+#Python code for expressing numbers from 1 to 1010 that are divisible by 13
+
+thirtn = [y for y in range(1, 1011) if y % 13 == 0]
+print(thirtn)
+print(len(thirtn))
